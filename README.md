@@ -1,4 +1,4 @@
-# terraform-alicloud-certificate
+# terraform-alicloud-ssl-certificate
 Terraform Module for creating SSL Certificate resource on Alibaba Cloud.
 
 These types of resources are supported:
@@ -10,7 +10,7 @@ These types of resources are supported:
 
 ```hcl
 module "example" {
-  source             = "terraform-alicloud-modules/certificate/alicloud"
+  source             = "terraform-alicloud-modules/ssl-certificate/alicloud"
   create_certificate = true
   certificate_name   = "your_certificate_name"
   key                = "your_key"
@@ -20,7 +20,7 @@ module "example" {
 
 ## Examples
 
-* [complete example](https://github.com/terraform-alicloud-modules/terraform-alicloud-certificate/tree/main/examples/complete)
+* [complete example](https://github.com/terraform-alicloud-modules/terraform-alicloud-ssl-certificate/tree/main/examples/complete)
 
 ## Terraform versions
 
